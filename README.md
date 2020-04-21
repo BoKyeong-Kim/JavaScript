@@ -16,4 +16,15 @@
 
 ### 바닐라 JS로 크롬 앱 만들기
 - [노마드코더님의 바닐라 자바스크립트 강의](https://academy.nomadcoders.co/courses/)를 통해 제작
-- 
+
+
+#### COMMIT : Making a JS Clock part One
+<img src="./image/part_one.png" width="180px" height="200px" alt="structure"></img>
+- 첫번째 커밋을 했을 때, 시간은 고정된 상태로 화면에 나타나게 된다.
+- 그리고 예를들어 11시 30분 05초라고 한다면 11:30:05가 아닌 11:30:5로 나오게 된다.
+- 이 부분을 수정하는 코드를 작성
+
+#### COMMIT : 
+<img src="./image/part_two.png" width="180px" height="200px" alt="structure"></img>
+
+
