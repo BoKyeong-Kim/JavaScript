@@ -37,8 +37,38 @@
 
 #### COMMIT : Saving the User Name part One
 <img src="./image/name_partone.png" width="250px" height="200px" alt="structure"></img>
-- local storage(로컬 스토리지) : 정보들을 저장하는 곳
+
+- `local storage(로컬 스토리지)` : 사용자 로컬에 저장하는 임시 저장소
     - 세션유지와 상관없이 데이터 유지되게 함(브라우저상에서 정보를 간단히 저장해서 사용해야할 떄 유용하게 사용가능)
-    - localStorage.setItem() 메서드에 key, value값을 주면 데이터가 저장된다.
+- `localStorage.setItem(key, value)` 메서드에 key, value값을 주면 데이터가 저장된다.
+    - key는 저장된 값을 식별하고 가져오는 데 사용되고 원하는 만큼 로컬 스토리지에 key를 저장할 수 있다. 
+    - 반대로 key를 가져올 때는 조회하려는 key 값으로 요청 
+    - 할당된 key에 저장되는 값은 숫자, 문자열 또는 객체(JSON)나 array(배열) 같은 형태로 저장할 수 있다.
+- `localStorage.getItem(key)` 메서드는 해당 key 값의 이름을 가진 데이터를 가져온다.
 
 <br>
+
+`querySelector()`
+- 특정 name 이나 id 를 제한하지않고 css선택자를 사용하여 요소를 찾음(수정하거나 접근해서 정보를 가져올수 있음)
+- querySelector()는 타겟의 자식요소 한가지만 가져옴
+- querySelectorAll()은 타겟의 자식요소를 모두 가져옴
+
+
+<br>
+
+`addEventListener()`
+- 이벤트리스너를 추가하는 자바스크립트 메소드
+- 지정한 이벤트가 대상에 전달될 때마다 호출할 함수를 설정
+- 여러개의 이벤트 핸들러 등록가능
+
+<br>
+
+#### 타이머 함수
+
+`setInterval(function, duration)`
+- 일정한 시간을 두고 작업을 수행하기위해서 사용
+-  clearInterval(timerid) 함수를 사용하여 중지할 수 있음
+    - 특정 타이머 id를 가진 타이머함수를 종료
+`setTimeOut(function, duration)`
+- 특정시간 이후에 딱 한번만 특정함수를 호출하여 실행
+
