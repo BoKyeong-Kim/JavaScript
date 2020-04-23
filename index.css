@@ -6,7 +6,7 @@ background-color: #ecf0f1;
   cursor: pointer;
 }
 
-h1 {
+body {
   color: #34495e;
   transition: color 0.5s ease-in-out;
 }
