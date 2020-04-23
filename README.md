@@ -48,6 +48,11 @@
 
 <br>
 
+#### COMMIT : Saving the User Name part Two
+<img src="./image/name_parttwo.png" width="250px" height="200px" alt="structure"></img>
+
+<br>
+
 `querySelector()`
 - 특정 name 이나 id 를 제한하지않고 css선택자를 사용하여 요소를 찾음(수정하거나 접근해서 정보를 가져올수 있음)
 - querySelector()는 타겟의 자식요소 한가지만 가져옴
