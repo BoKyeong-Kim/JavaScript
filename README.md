@@ -36,7 +36,7 @@
 <br>
 
 #### COMMIT : Saving the User Name part One
-<img src="./image/name_partone.png" width="250px" height="200px" alt="structure"></img>
+<img src="./image/name_partone.png" width="450px" height="400px" alt="structure"></img>
 
 - `local storage(로컬 스토리지)` : 사용자 로컬에 저장하는 임시 저장소
     - 세션유지와 상관없이 데이터 유지되게 함(브라우저상에서 정보를 간단히 저장해서 사용해야할 떄 유용하게 사용가능)
@@ -49,7 +49,12 @@
 <br>
 
 #### COMMIT : Saving the User Name part Two
-<img src="./image/name_parttwo.png" width="250px" height="200px" alt="structure"></img>
+<img src="./image/name_parttwo.png" width="350px" height="300px" alt="structure"></img>
+
+<br>
+
+#### COMMIT : Making a To Do List part One
+<img src="./image/todoList(1).png" width="350px" height="300px" alt="structure"></img>
 
 <br>
 
