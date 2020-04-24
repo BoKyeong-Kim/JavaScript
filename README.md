@@ -58,6 +58,14 @@
 
 <br>
 
+#### COMMIT : Making a To Do List part Two
+<img src="./image/todoList(2).png" width="350px" height="300px" alt="structure"></img>
+- local storage에는 자바스크립트의 data를 저장할 수 없음.
+- string으로만 저장하여 JSON.stringify를 사용하여 object를 string으로 바꿔줌
+- `forEach()` : array에 담겨있는 것들 각각에 한 번씩 함수 실행
+
+<br>
+
 `querySelector()`
 - 특정 name 이나 id 를 제한하지않고 css선택자를 사용하여 요소를 찾음(수정하거나 접근해서 정보를 가져올수 있음)
 - querySelector()는 타겟의 자식요소 한가지만 가져옴
