@@ -36,7 +36,7 @@
 <br>
 
 #### COMMIT : Saving the User Name part One
-<img src="./image/name_partone.png" width="450px" height="400px" alt="structure"></img>
+<img src="./image/name_partone.png" width="550px" height="500px" alt="structure"></img>
 
 - `local storage(로컬 스토리지)` : 사용자 로컬에 저장하는 임시 저장소
     - 세션유지와 상관없이 데이터 유지되게 함(브라우저상에서 정보를 간단히 저장해서 사용해야할 떄 유용하게 사용가능)
@@ -59,10 +59,58 @@
 <br>
 
 #### COMMIT : Making a To Do List part Two
-<img src="./image/todoList(2).png" width="350px" height="300px" alt="structure"></img>
+<img src="./image/todoList(2).png" width="750px" height="500px" alt="structure"></img>
 - local storage에는 자바스크립트의 data를 저장할 수 없음.
 - string으로만 저장하여 JSON.stringify를 사용하여 object를 string으로 바꿔줌
 - `forEach()` : array에 담겨있는 것들 각각에 한 번씩 함수 실행
+
+<br>
+
+#### COMMIT : Making a To Do List part Three
+<img src="./image/todoList(3).png" width="750px" height="500px" alt="structure"></img>
+- 기존에 추가해놓은 일정들을 확인할 수 있다.
+
+<img src="./image/todoList(3-1).png" width="750px" height="500px" alt="structure"></img>
+- 첫번째 일정에 대한 delete 버튼을 누르면 일정이 삭제된다.
+
+<img src="./image/todoList(3-2).png" width="750px" height="500px" alt="structure"></img>
+- 두번째 일정에 대한 delete 버튼을 누르면 일정이 삭제된다.
+
+<br>
+
+##### var, let, const 차이점
+- const, let은 ES6(ECMAScript6)의 문법
+- var는 ES6이전 문법
+- `var` : 변수 선언 방식에서 변수를 한번 더 선언하면 다른 값이 나온다.
+```JavaScript
+    var name = 'bokyeong' 
+    console.log(name) //bokyeong
+    var name = 'bokyeoning' 
+    console.log(name) //bokyeoning
+```
+
+- `let` : 변수 재선언 불가능, 재할당 가능
+```JavaScript
+    let name = 'bokyeong' 
+    console.log(name) //bokyeong
+    let name = 'bokyeoning' 
+    console.log(name) //error
+    name = 'bokyeoning'
+    console.log(name) //bokyeoning
+```
+
+- `const` : 변수 재선언, 재할당 모두 불가능
+```JavaScript
+    const name = 'bokyeong' 
+    console.log(name) //bokyeong
+    const name = 'bokyeoning' 
+    console.log(name) //error
+    name = 'bokyeoning'
+    console.log(name) //error
+```
+
+
+
 
 <br>
 
