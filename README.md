@@ -36,7 +36,7 @@
 <br>
 
 #### COMMIT : Saving the User Name part One
-<img src="./image/name_partone.png" width="550px" height="500px" alt="structure"></img>
+<img src="./image/name_partone.png" width="750px" height="500px" alt="structure"></img>
 
 - `local storage(로컬 스토리지)` : 사용자 로컬에 저장하는 임시 저장소
     - 세션유지와 상관없이 데이터 유지되게 함(브라우저상에서 정보를 간단히 저장해서 사용해야할 떄 유용하게 사용가능)
@@ -109,8 +109,12 @@
     console.log(name) //error
 ```
 
+<br>
 
 
+#### COMMIT : Image BG
+<img src="./image/imagebg.png" width="750px" height="500px" alt="structure"></img>
+- 배경으로 쓰이는 이미지를 랜덤으로 가져오는 코드 작성.
 
 <br>
 
