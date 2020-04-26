@@ -171,6 +171,15 @@ function handleGeoSucces(position){
 <br>
 
 --------------------
+#### COMMIT : Using weather API Key
+<img src="./image/weatherApi(4).png" width="750px" height="500px" alt="structure"></img>
+- API를 통해 위도, 경도를 받아오고 appid에 API_KEY를 넣어 URL을 요청한다.
+- Request URL 전체를 복사하여 검색창에서 검색하면 날씨에 대한 정보들이 저장되어있는것을 확인할 수 있다.
+- 그리고 response로 출력해본 뒤, json 중 가져오고싶은 부분을 작성해준다. 
+
+<br>
+
+--------------------
 
 `querySelector()`
 - 특정 name 이나 id 를 제한하지않고 css선택자를 사용하여 요소를 찾음(수정하거나 접근해서 정보를 가져올수 있음)
