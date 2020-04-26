@@ -14,12 +14,16 @@
 - 동적이며, 타입을 명시할 필요가 없는 인터프리터 언어
 - 객체지향형 프로그래밍과 함수형 프로그래밍 모두 표현 가능
 
+----------------------
+
 <br>
 
 ### 바닐라 JS로 크롬 앱 만들기
 - [노마드코더님의 바닐라 자바스크립트 강의](https://academy.nomadcoders.co/courses/)를 통해 제작
 
 <br>
+
+--------------------
 
 #### COMMIT : Making a JS Clock part One
 <img src="./image/part_one.png" width="250px" height="200px" alt="structure"></img>
@@ -29,11 +33,15 @@
 
 <br>
 
+------------------------
+
 #### COMMIT : Making a JS Clock part Two
 <img src="./image/part_two.png" width="250px" height="200px" alt="structure"></img>
 - 위 사진처럼 4초가 아닌 04초로 나오게 수정
 
 <br>
+
+------------------------
 
 #### COMMIT : Saving the User Name part One
 <img src="./image/name_partone.png" width="750px" height="500px" alt="structure"></img>
@@ -48,15 +56,21 @@
 
 <br>
 
+-------------------------
+
 #### COMMIT : Saving the User Name part Two
 <img src="./image/name_parttwo.png" width="350px" height="300px" alt="structure"></img>
 
 <br>
 
+----------------------
+
 #### COMMIT : Making a To Do List part One
 <img src="./image/todoList(1).png" width="350px" height="300px" alt="structure"></img>
 
 <br>
+
+-----------------------
 
 #### COMMIT : Making a To Do List part Two
 <img src="./image/todoList(2).png" width="750px" height="500px" alt="structure"></img>
@@ -65,6 +79,8 @@
 - `forEach()` : array에 담겨있는 것들 각각에 한 번씩 함수 실행
 
 <br>
+
+-------------------
 
 #### COMMIT : Making a To Do List part Three
 <img src="./image/todoList(3).png" width="750px" height="500px" alt="structure"></img>
@@ -77,6 +93,7 @@
 - 두번째 일정에 대한 delete 버튼을 누르면 일정이 삭제된다.
 
 <br>
+-------------------------
 
 ##### var, let, const 차이점
 - const, let은 ES6(ECMAScript6)의 문법
@@ -111,12 +128,49 @@
 
 <br>
 
+---------------------
+
 
 #### COMMIT : Image BG
 <img src="./image/imagebg.png" width="750px" height="500px" alt="structure"></img>
 - 배경으로 쓰이는 이미지를 랜덤으로 가져오는 코드 작성.
 
 <br>
+
+-----------------------
+
+#### COMMIT : Using weather API
+<img src="./image/weatherApi(1).png" width="750px" height="500px" alt="structure"></img>
+
+```javascript
+function handleGeoSucces(position){
+    console.log(position);
+}
+```
+
+- handleGeoSucces함수를 위처럼 작성하고 새로고침을 하면 위치권한에 대해 확인하는 팝업이 나타난다.
+
+<img src="./image/weatherApi(1).png" width="750px" height="500px" alt="structure"></img>
+- 확인을 누르면 위도와 경도가 나타난다.
+- 만약 객체에 변수의 이름과 객체의 key이름을 같게 저장할때는 아래의 주석처럼 작성이 가능하다.
+
+```javascript
+function handleGeoSucces(position){
+    const latitude = position.coords.latitude;
+    const longitude = postion.coords.longitude;
+    const coordsObj = {
+        latitude = latitude, //latitude
+        longitude = longitude //longitude
+    };
+}
+```
+
+<img src="./image/weatherApi(3).png" width="750px" height="500px" alt="structure"></img>
+- 코드를 수정하고 새로고침을 누르면 Key가 coords, Value에 위도, 경도가 저장된 것을 확인할 수 있다.
+
+<br>
+
+--------------------
 
 `querySelector()`
 - 특정 name 이나 id 를 제한하지않고 css선택자를 사용하여 요소를 찾음(수정하거나 접근해서 정보를 가져올수 있음)
