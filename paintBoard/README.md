@@ -7,6 +7,11 @@
 
 <br>
 
-#### COMMIT : 1)project setup
+#### COMMIT : 2)Styles part One
 
 <img src="./image/paintBoard(1).png" width="700px" height="550px" alt="structure"></img>
+
+
+#### COMMIT : 3)Styles part Two
+
+<img src="./image/paintBoard(2).png" width="700px" height="550px" alt="structure"></img>
