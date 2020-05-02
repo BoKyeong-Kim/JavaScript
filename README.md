@@ -18,6 +18,7 @@
 
 ### Momentum 
 - 최종 결과물
+[자세한 내용은 Momentum README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/Momentum)
 
 <img src="./img/Momentum.png" width="850px" height="650px" alt="structure"></img>
 
