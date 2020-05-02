@@ -45,7 +45,6 @@ input[type="text"] {
 input:focus {
   background-color: #FFF0F5;
   outline: 2px solid plum;
-
 }
 
 .form,

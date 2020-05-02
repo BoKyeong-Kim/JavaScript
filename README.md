@@ -25,4 +25,4 @@
 -----------------------
 
 
-### MakeGame
+### paintBoard : painting board
