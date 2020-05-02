@@ -37,5 +37,9 @@
 
 <br>
 
+#### COMMIT : 6)Draw lines on the painting board
 
+- `moveTo` 함수는 path를 나타내고,`lineTo` 함수는 선을 그리는 x,y 를 나타낸다.
+- 현재 console.log를 찍어보면 마우스를 클릭하여 움직일때(선을 그릴때)와, 클릭하지 않은 상태에서 마우스를 움직일 때가 다르게 나타난다.
 
+<img src="./image/paintBoard(5).png" width="700px" height="550px" alt="structure"></img>
