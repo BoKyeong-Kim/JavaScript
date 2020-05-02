@@ -30,6 +30,12 @@
 
 <br>
 
+#### COMMIT : 5) 2D context
+
+- 기본적으로 Canvas는 HTML의 한 요소인데, 다른점은 `context`를 갖는다는 점이다.
+- `context`란 canvas란 요소안에서 픽셀에 접근할 수 있는 방법을 말한다.
+
+<br>
 
 
 
