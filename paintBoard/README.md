@@ -64,17 +64,21 @@
 #### COMMIT : 8)Brush Size
 
 - Brush 기본 사이즈 (2.5)
+
 <img src="./image/paintBoard(8).png" width="700px" height="550px" alt="structure"></img>
 
 - Brush min 사이즈 (0.1)
+
 <img src="./image/paintBoard(9).png" width="700px" height="550px" alt="structure"></img>
 
 - Brush max 사이즈 (5)
+
 <img src="./image/paintBoard(10).png" width="700px" height="550px" alt="structure"></img>
 
 <br>
 
 - 전체의 board를 선택한 색상으로 채우기 위해 만들어두었던 fill 버튼을 누르면 paint버튼이 나오도록 코드를 작성.
+
 <img src="./image/paintBoard(11).png" width="700px" height="550px" alt="structure"></img>
 
 <br>
