@@ -76,3 +76,16 @@
 
 - 전체의 board를 선택한 색상으로 채우기 위해 만들어두었던 fill 버튼을 누르면 paint버튼이 나오도록 코드를 작성.
 <img src="./image/paintBoard(11).png" width="700px" height="550px" alt="structure"></img>
+
+<br>
+
+#### COMMIT : 9)Filling Mode
+- filling일때 색상을 정해 board를 클릭하면 정한 색상 전체를 적용시키는 코드를 작성
+- fillRect(x, y, w, h) 함수 사용 
+
+<img src="./image/paintBoard(12).png" width="700px" height="550px" alt="structure"></img>
+
+
+- paint를 선택하고 클릭을하면 선으로 그림을 그릴 수 있게된다.
+
+<img src="./image/paintBoard(13).png" width="700px" height="550px" alt="structure"></img>
