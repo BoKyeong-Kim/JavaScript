@@ -89,3 +89,40 @@
 - paint를 선택하고 클릭을하면 선으로 그림을 그릴 수 있게된다.
 
 <img src="./image/paintBoard(13).png" width="700px" height="550px" alt="structure"></img>
+
+<br>
+
+#### COMMIT : 10)Saving the Image
+```javascript
+const image = canvas.toDataURL("image/png");
+console.log(image);
+```
+위의 코드를 작성하면 image의 링크가 나온다.
+
+<img src="./image/paintBoard(14).png" width="700px" height="550px" alt="structure"></img>
+
+<br>
+
+- 위에서 출력된 링크를 복사하여 붙여넣으면 아래처럼 이미지가 나타난다. 
+
+<img src="./image/paintBoard(15).png" width="700px" height="550px" alt="structure"></img>
+
+<br>
+
+- href는 이미지가 되어야하고, download는 그 이름을 가져야한다.
+- 설정을 해주고나면 아래와 같이  href와 download가 적힌 링크를 볼 수 있다.(console.log(link))
+
+<img src="./image/paintBoard(16).png" width="700px" height="550px" alt="structure"></img>
+
+
+- save 클릭 
+
+<img src="./image/paintBoard(17).png" width="700px" height="550px" alt="structure"></img>
+
+- 이미지파일이 저장된 것을 확인할 수 있다.
+
+<img src="./image/paintBoard(18).png" width="700px" height="550px" alt="structure"></img>
+
+
+
+
