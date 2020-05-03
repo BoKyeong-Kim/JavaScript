@@ -43,3 +43,18 @@
 - 현재 console.log를 찍어보면 마우스를 클릭하여 움직일때(선을 그릴때)와, 클릭하지 않은 상태에서 마우스를 움직일 때가 다르게 나타난다.
 
 <img src="./image/paintBoard(5).png" width="700px" height="550px" alt="structure"></img>
+
+<br>
+
+#### COMMIT : 7)Changing Color
+
+- event에 대해 console.log를 출력해서 가져와야하는 부분을 확인한다.
+- 가져온 event에 대해 target >> style >> backgroundColor 부분을 가져온 후, color에 대입.
+- backgroundColor부분에 rgb가 있기때문.
+
+<img src="./image/paintBoard(6).png" width="700px" height="550px" alt="structure"></img>
+
+- 그 부분을 가져와서 기본값으로 설정해두었던 strokeStyle에 color를 대입해준다.
+- 그럼 아래와 같이 색을 변경하여 사용 가능
+
+<img src="./image/paintBoard(7).png" width="700px" height="550px" alt="structure"></img>
