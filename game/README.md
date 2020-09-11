@@ -12,6 +12,11 @@
 
 ### 필수개념
 - [MDN web docs 공식문서 참고](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/this)
+- [zerocho님 블로그 참고](https://www.zerocho.com/category/JavaScript/post/573c2acf91575c17008ad2fc)
+
+<br>
+
+---
 
 #### this 
 - this 키워드는 기본적으로 전역객체(브라우저에서는 window)와 같다.
@@ -83,10 +88,54 @@ whatsThis.apply(obj); // this는 'Custom'. 함수 내에서 obj로 설정한다.
 
 <br>
 
+----
+
 #### constructor
 - class 내에서 객체를 생성하고 초기화하기 위한 특별한 메서드
 - 클래스는 constructor라는 이름을 가진 특별한 메서드를 하나씩만 가질 수 있다. 
     - 두 개 이상의 constructor 메서드는 SyntaxError를 유발
+- new를 붙이고 함수처럼 호출, 객체를 생성하는 함수를 생성자 함수라고 부른다.
+
+```javascript
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.sayHello = function() {
+    alert(this.name + ' said "hello"');
+  }
+  this.... // 사람의 속성과 메소드를 더 정의할 수 있음
+}
+```
+
+<br>
+
+- 사용방법 : **new 생성자(인자)**
+
+```javascript
+var boka = new Person('Boka', '25');
+boka.sayHello(); //'Boka said Hello'
+```
+
+
+<br>
+
+#### prototype
+- Person의 prototype 객체에 sayHello라는 메소드를 넣으면 Person 생성자로 만든 모든 객체는 이 메소드 사용이 가능
+- this.sayHello보다 prototype에 Person.prototype.sayHello로 넣는 게 더 효율적
+    - this에 넣은 것은 객체 하나를 만들 때마다 메소드도 하나씩 만들어지기 때문에 불필요한 메모리 낭비가 발생하기 때문
+
+
+```javascript
+function Person(name, age) {
+  this.name = name;
+  this.age = age; 
+}
+
+Person.prototype.sayHello = function() {
+  console.log(this.name + ' said "hello"');
+};
+
+```
 
 
 
