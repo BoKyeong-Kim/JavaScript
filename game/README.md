@@ -137,6 +137,27 @@ Person.prototype.sayHello = function() {
 
 ```
 
+<br>
+
+---
+
+### 01
+#### 기능
+- main.js 
+    - controller, display, game, engine의 생성자를 만듦.
+    - 코드가 시작되는 부분
+- controller.js 
+    - 키보드 화살표의 keycode를 활용하여 이벤트가 발생할 때마다 입력을 받음 
+- display.js
+    - resize()로 전체화면보다 조금 작게 구성
+    - canvas에 일정시간이 지날때마다 화면색이 변경
+- game.js
+    - 게임 화면의 전체적인 색과, 업데이트 될때마다의 색을 구성
+- engine.js
+    - 시간을 계산하는 부분
+    - 프레임 출력 : 1초마다 30프레임 출력 (main에서 생성자 만들 때 1000/30로 지정)
+
+
 
 
 <br>
