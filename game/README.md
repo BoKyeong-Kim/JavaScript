@@ -119,6 +119,8 @@ boka.sayHello(); //'Boka said Hello'
 
 <br>
 
+---
+
 #### prototype
 - Person의 prototype 객체에 sayHello라는 메소드를 넣으면 Person 생성자로 만든 모든 객체는 이 메소드 사용이 가능
 - this.sayHello보다 prototype에 Person.prototype.sayHello로 넣는 게 더 효율적
@@ -150,7 +152,7 @@ Person.prototype.sayHello = function() {
     - 키보드 화살표의 keycode를 활용하여 이벤트가 발생할 때마다 입력을 받음 
 - display.js
     - resize()로 전체화면보다 조금 작게 구성
-    - canvas에 일정시간이 지날때마다 화면색이 변경
+    - canvas에 일정시간이 지날때마다 화면색이 변경(renderColor())
 - game.js
     - 게임 화면의 전체적인 색과, 업데이트 될때마다의 색을 구성
 - engine.js
@@ -158,8 +160,28 @@ Person.prototype.sayHello = function() {
     - 프레임 출력 : 1초마다 30프레임 출력 (main에서 생성자 만들 때 1000/30로 지정)
 
 
+---
 
 
 <br>
 
+### 02
+#### 기능
+- main.js 
+    - keyDownUp() 적용 
+- controller.js 
+    - keycode로 받은 화살표 아래버튼 조건 제거
+- display.js
+    - drawRectangle(), fill() 추가
+    - resize에서 고정값이 아니라 인자값을 받아오게 수정됨
+- game.js
+    - this.world를 만들어 하위항목에
+    - 중력(gravity), 마찰력(friction) 추가
+    - player 생성자 추가
+    - collideObject()를 만들어 벽면에 충돌하게끔 구성
+    - update() 함수도 중력과 마찰력으로 계산하여 재구성
+- engine.js
+    - 01에서 사용한 그대로 사용
 
+
+---
