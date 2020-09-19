@@ -185,3 +185,27 @@ Person.prototype.sayHello = function() {
 
 
 ---
+
+
+<br>
+
+### 03
+#### 기능
+
+- main.js 
+    - display에 tile_sheet image를 추가한것을 main에 작성
+- controller.js 
+    - 02에서 사용한 그대로 사용
+- display.js
+    - Tile_sheet 생성
+    - drawMap() 구현 : 이미지 내(source)에 있는 인자를 가져와 화면(destination)에 그리도록 코드 작성
+    - drawPlayer() 구현 : squre가 움직이도록 -> 네모박스 그릴때 Math.floor로 내림해줌(잔상 현상 방지) 
+    - render를 prototype내에 포함
+- game.js
+    - Game.World(객체 생성 -> World로 정의 후 인스턴스 생성)로 변경
+    - columns, rows, tile_size, map을 그려줌
+- engine.js
+    - 01에서 사용한 그대로 사용
+    
+---
+
