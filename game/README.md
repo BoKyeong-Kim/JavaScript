@@ -209,3 +209,24 @@ Person.prototype.sayHello = function() {
     
 ---
 
+
+<br>
+
+### 04
+#### 기능
+
+- main.js 
+    - 03에서 사용한 그대로 사용
+- controller.js 
+    - 02에서 사용한 그대로 사용
+- display.js
+    - drawPlayer에서 Math.floor -> Math.round로 변경 (움직임이 조금 더 smooth해짐)
+- game.js
+    - collision_map 구현
+    - bottom, left, right, top, value에 대한 계산
+    -  Game.World.Collider 생성 -> value값에 따라 적용되는 값이 달라지도록 
+- engine.js
+    - 01에서 사용한 그대로 사용
+    
+<br>
+
