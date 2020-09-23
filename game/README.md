@@ -225,8 +225,32 @@ Person.prototype.sayHello = function() {
     - collision_map 구현
     - bottom, left, right, top, value에 대한 계산
     -  Game.World.Collider 생성 -> value값에 따라 적용되는 값이 달라지도록 
+    - assign을 통해 Player의 prototype이 Object의 prototype을 상속
 - engine.js
     - 01에서 사용한 그대로 사용
     
+
+---
+
 <br>
+
+### 05
+#### 기능
+
+- main.js 
+    - AssetsManager 추가
+    - render function에서 square 대신에 rabbit 이미지 사용
+- controller.js 
+    - 02에서 사용한 그대로 사용
+- display.js
+    - TileSet class를 없애고 Game.World.TileSet를 추가
+    - drawMap() 인스턴스 추가됨
+    - drawPlayer() -> drawObject()로 변경
+- game.js
+    - Game.World.TileSet class와 Game.World.TileSet.Frame class가 추가됨
+    - Game.World.Object.Animator class가 추가됨
+    - Player object에 frame sets을 가지도록 -> 프레임별로 animation이 분리됨.
+    - tile_set object로부터 tile_size 사용
+- engine.js
+    - 01에서 사용한 그대로 사용
 
