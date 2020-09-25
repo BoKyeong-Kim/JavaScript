@@ -238,7 +238,7 @@ Person.prototype.sayHello = function() {
 #### 기능
 
 - main.js 
-    - AssetsManager 추가
+    - AssetsManager 추가(그래픽, 사운드 저장)
     - render function에서 square 대신에 rabbit 이미지 사용
 - controller.js 
     - 02에서 사용한 그대로 사용
@@ -253,4 +253,29 @@ Person.prototype.sayHello = function() {
     - tile_set object로부터 tile_size 사용
 - engine.js
     - 01에서 사용한 그대로 사용
+
+---
+
+<br>
+
+### 06
+#### 기능
+
+- main.js 
+    - json파일을 불러와서 맵구성(XMLHttpRequest) : get으로 url을 불러옴
+    - game.world.door에 들어가면 엔진이 멈추도록
+    - AssetsManager class는 image와 json 파일을 불러옴.
+- controller.js 
+    - 02에서 사용한 그대로 사용
+- display.js
+    - 05에서 사용한 그대로 사용
+- game.js
+    - class가 간단하게 변경 (ex. Game.World.Object.Player -> Game.Player)
+    - Game.World.prototype.setup 추가(tile map, new zone, reset door)
+    - MovingObject class 추가 -> 속도값, 제한 속도값을 지정
+    - Game.World.map -> Game.World.graphical_map으로 변경
+    - Game.Door class 추가
+- engine.js
+    - animation_frame_request() 위치가 맨 위로 변경됨
+    
 
