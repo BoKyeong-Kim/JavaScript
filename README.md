@@ -30,3 +30,11 @@
 [자세한 내용은 paintBoard README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/paintBoard)
 <img src="./img/paintBoard.png" width="850px" height="650px" alt="structure"></img>
 
+-----------------------
+
+
+### game
+- 최종 결과물
+[자세한 내용은 game README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/game)
+<img src="./img/rabbit-trap.png" width="850px" height="650px" alt="structure"></img>
+
