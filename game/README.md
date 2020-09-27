@@ -279,3 +279,35 @@ Person.prototype.sayHello = function() {
     - animation_frame_request() 위치가 맨 위로 변경됨
     
 
+---
+
+<br>
+
+### 07
+#### 기능
+
+- main.js
+    - 당근과 캐릭터가 만나게 되면 count 증가
+    - resize에 rectangle 추가
+- controller.js 
+    - 02에서 사용한 그대로 사용
+- display.js
+    - 05에서 사용한 그대로 사용
+- game.js
+    - Game.Carrot class 추가 -> frame_set : "twirl"
+    - Game.Grass class 추가 -> frame_set : "wave"
+    - carrot_count 추가 -> 충돌되면 인덱스값 제거
+    - collideObject()를 Game.Door -> Game.Object로 변경
+- engine.js
+    - 06에서 사용한 그대로 사용
+    
+
+<br>
+
+---
+
+
+    
+
+
+
