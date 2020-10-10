@@ -20,7 +20,7 @@
 - 최종 결과물
 [자세한 내용은 Momentum README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/Momentum)
 
-<img src="./img/Momentum.png" width="850px" height="650px" alt="structure"></img>
+<div align="center"><img src="./img/Momentum.png" width="700px" height="450px" alt="structure"></img></div>
 
 -----------------------
 
@@ -28,7 +28,7 @@
 ### paintBoard : painting board
 - 최종 결과물
 [자세한 내용은 paintBoard README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/paintBoard)
-<img src="./img/paintBoard.png" width="850px" height="650px" alt="structure"></img>
+<div align="center"><img src="./img/paintBoard.png" width="700px" height="450px" alt="structure"></img></div>
 
 -----------------------
 
@@ -36,14 +36,14 @@
 ### game
 - 최종 결과물
 [자세한 내용은 game README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/game)
-<img src="./img/rabbit-trap.png" width="850px" height="650px" alt="structure"></img>
+<div align="center"><img src="./img/rabbit-trap.png" width="700px" height="450px" alt="structure"></img></div>
 
 
 -----------------------
 
 ### bokaMap
 - 최종 결과물
-<img src="./img/bokaMap.png" width="850px" height="650px" alt="structure"></img>
+<div align="center"><img src="./img/bokaMap.png" width="700px" height="450px" alt="structure"></img></div>
 
 
 ----------------------
@@ -51,4 +51,5 @@
 ### Chat Application
 
 - 최종 결과물
-<img src="./Chat/img/js_chat_main.png" width="850px" height="650px" alt="structure"></img>
+[자세한 내용은 Chat README.md 참고](https://github.com/BoKyeong-Kim/JavaScript/tree/master/Chat)
+<div align="center"><img src="./Chat/img/js_chat_main.png" width="700px" height="450px" alt="structure"></img></div>

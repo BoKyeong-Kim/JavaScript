@@ -1,7 +1,7 @@
 # Chat Application
 
-- [Javascript -  Realtime Chat Application](## Javascript)
-- [React - Realtime Chat Application](## React)
+- [Javascript -  Realtime Chat Application](#Javascript)
+- [React - Realtime Chat Application](#React)
 
 ---
 
@@ -39,9 +39,9 @@ node db.js
 
 - 완성화면
 
-<img src="./img/js_chat_main.png" width="850px" height="650px" alt="structure"></img>
-<img src="./img/js_chat_room.png" width="850px" height="650px" alt="structure"></img>
+<div align="center"><img src="./img/js_chat_main.png" width="700px" height="450px" alt="structure"></img></div>
 
+<div align="center"><img src="./img/js_chat_room.png" width="700px" height="450px" alt="structure"></img></div>
 
 
 ---
