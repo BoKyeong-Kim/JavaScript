@@ -11,6 +11,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 //정적 폴더 설정 -> 브라우저에서 HTTP를 열면(localhost 3000) index.html 페이지를 볼 수 있음.
+//파일이 URL로 연결되도록 경로설정
 app.use(express.static(path.join(__dirname, "public")));
 
 const botName = "ChatCord Bot";
