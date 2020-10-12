@@ -47,3 +47,12 @@ node db.js
 ---
 
 ## React
+
+- react install
+
+```
+npm install -g create-react-app
+create-react-app ./
+```
+
+[React - Realtime Chat Application으로 이동](https://github.com/BoKyeong-Kim/React)
